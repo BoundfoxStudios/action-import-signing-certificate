@@ -21,7 +21,7 @@
   "author": "Manuel Rauber <info@boundfoxstudios.com>",
   "contributors": [
     "Stefan Arentz <stefan@devbots.xyz>"
-  ]
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/BoundfoxStudios/import-signing-certificate/issues"
