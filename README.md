@@ -21,12 +21,10 @@ The certificate data should be a Base64 encoded `.p12` file, which is the defaul
 
 ## Full Example
 
-The [devbotsxyz/example-macos-rings](https://github.com/devbotsxyz/example-macos-rings) project is an example macOS project with a [release.yml](https://github.com/devbotsxyz/example-macos-rings/.github/workflows/release.yml) workflow that shows all the steps needed to go from creating a release in GitHub to ending up with a `.zip` file that contains a signed and notarized application.
+The [BoundfoxStudios/community-project](https://github.com/BoundfoxStudios/community-project) project is an example Unity macOS project with a [notarization.yml](https://github.com/BoundfoxStudios/community-project/blob/develop/.github/workflows/notarization.yml) workflow that shows all the steps needed to go from creating a release in GitHub to ending up with a `.zip` file that contains a signed and notarized application.
 
 ## Related Actions
 
- * [Carthage Bootstrap](https://github.com/marketplace/actions/xcode-staple) - Bootstrap your Carthage Dependencies.
- * [Xcode Archive](https://github.com/marketplace/actions/xcode-archive) - Build and Archive Xcode projects.
  * [Xcode Notarize](https://github.com/marketplace/actions/apple-xcode-notarize) - Notarize a macOS product.
  * [Xcode Staple](https://github.com/marketplace/actions/apple-xcode-staple) - Staple a Notarization Ticket to your product.
  * [Xcode Select](https://github.com/marketplace/actions/apple-xcode-select) - Select a Xcode version.
