@@ -10,11 +10,11 @@ For simple projects where there is one scheme, invoking `xcode-archive` can be a
 
 ```yaml
 - name: "Import Certificate: Development"
-  uses: devbotsxyz/xcode-import-certificate@master
+  uses: BoundfoxStudios/xcode-import-certificate@v1
   with:
     certificate-data: ${{ secrets.DEVELOPMENT_CERTIFICATE_DATA }}
     certificate-passphrase: ${{ secrets.DEVELOPMENT_CERTIFICATE_PASSPHRASE }}
-    keychain-password: ${{ secrets.KEYCHAIN_PASSWORD }
+    keychain-password: ${{ secrets.KEYCHAIN_PASSWORD }}
 ```
 
 The certificate data should be a Base64 encoded `.p12` file, which is the default certificate export format of _Keychain Access.app_. The `keychain-password` input should be a (hard to guess) random password to be used for the temporary keychain.
@@ -27,8 +27,9 @@ The [devbotsxyz/example-macos-rings](https://github.com/devbotsxyz/example-macos
 
  * [Carthage Bootstrap](https://github.com/marketplace/actions/xcode-staple) - Bootstrap your Carthage Dependencies.
  * [Xcode Archive](https://github.com/marketplace/actions/xcode-archive) - Build and Archive Xcode projects.
- * [Xcode Notarize](https://github.com/marketplace/actions/xcode-notarize) - Notarize a macOS product.
- * [Xcode Staple](https://github.com/marketplace/actions/xcode-staple) - Staple a Notarization Ticket to your product.
+ * [Xcode Notarize](https://github.com/marketplace/actions/apple-xcode-notarize) - Notarize a macOS product.
+ * [Xcode Staple](https://github.com/marketplace/actions/apple-xcode-staple) - Staple a Notarization Ticket to your product.
+ * [Xcode Select](https://github.com/marketplace/actions/apple-xcode-select) - Select a Xcode version.
 
 ## License and Contributions
 
