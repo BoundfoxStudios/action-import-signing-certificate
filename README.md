@@ -10,7 +10,7 @@ For simple projects where there is one scheme, invoking `xcode-archive` can be a
 
 ```yaml
 - name: "Import Certificate: Development"
-  uses: BoundfoxStudios/xcode-import-certificate@v1
+  uses: BoundfoxStudios/action-xcode-import-certificate@v1
   with:
     certificate-data: ${{ secrets.DEVELOPMENT_CERTIFICATE_DATA }}
     certificate-passphrase: ${{ secrets.DEVELOPMENT_CERTIFICATE_PASSPHRASE }}
